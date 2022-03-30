@@ -10,7 +10,7 @@ class Track extends React.Component {
     
     renderAction () {
         if(this.props.different) {
-            return <img src={this.props.track.image.url} alt="image"/>
+            return <img src={this.props.track.image.url} alt="playlists mashup"/>
         }
           
         if(this.props.isRemoval) {
