@@ -1,4 +1,4 @@
-.Playlist {
+.Playlists {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +9,7 @@
     background-color: rgba(1, 12, 63, 0.7);
     box-shadow: 0 4px 2px 2px #000000;
   }
-  
-  .Playlist input {
+  .Playlists h2 {
     width: 100%;
     border: 0;
     outline: 0;
@@ -19,9 +18,9 @@
     font-family: 'Poppins', sans-serif;
     font-size: 1.55rem;
     color: #fff;
+    padding-bottom: 10px;
   }
-  
-  .Playlist-save {
+  .getPlaylists {
     cursor: pointer;
     width: 10rem;
     padding: .77rem 0;
@@ -35,18 +34,12 @@
     color: #fff;
     font-weight: 500;
   }
-  
-  .Playlist-save:hover {
+  .getPlaylists:hover {
     background-color: rgba(108, 65, 233, .7);
   }
-  
-  ::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-  }
-  
   @media only screen and (max-width: 1020px) {
-    .Playlist {
+    .Playlists {
       width: 90%;
+      margin-bottom: 2rem;
     }
   }

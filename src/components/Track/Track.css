@@ -35,3 +35,7 @@
     font-weight: 300;
     color: rgba(256, 256, 256, 0.8);
   }
+  .Track img {
+    height: 50px;
+    width: 50px;
+  }
